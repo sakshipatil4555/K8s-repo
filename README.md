@@ -8,3 +8,6 @@ now install docker -> sudo apt-get install docker.io
 docker ps -> to see if docker is installed
 if get error then need to add this to user group -> sudo usermod -aG docker $USER && newgrp docker
 now to create cluster -> kind create cluster   --name=tws-cluster --config=config.yml
+Kubectl get nodes
+kubectl get ns or kubectl get namespace
+kubectl get pods -n ns_name
