@@ -11,3 +11,5 @@ now to create cluster -> kind create cluster   --name=tws-cluster --config=confi
 Kubectl get nodes
 kubectl get ns or kubectl get namespace
 kubectl get pods -n ns_name
+kubectl create namespace nginx-namespace
+
