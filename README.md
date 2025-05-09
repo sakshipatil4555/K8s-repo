@@ -12,4 +12,5 @@ Kubectl get nodes
 kubectl get ns or kubectl get namespace
 kubectl get pods -n ns_name
 kubectl create namespace nginx-namespace
+kubectl apply -f deployment.yml 
 
